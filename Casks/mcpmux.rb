@@ -1,9 +1,9 @@
 cask "mcpmux" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.4.0"
-  sha256 arm:   "b73bf51f3df461fa511717330332ef6ed2295f7cb8af73f4141274268d0b1c76",
-         intel: "fc4134c2017a680fa8d0c2697517c0a74d9276976b74c264cded0a370e8e9b17"
+  version "0.5.0"
+  sha256 arm:   "41ec8e3613d65ea2786a2004c3ec40120e71d21f1c3ad50091ebe69cff96ae1c",
+         intel: "4821288b6503e6daf4cf9be2445ce2e3ff5851455bca0e99e38bc70854181843"
 
   url "https://github.com/mcpmux/mcp-mux/releases/download/v#{version}/McpMux_#{version}_#{arch}.dmg",
       verified: "github.com/mcpmux/mcp-mux/"
